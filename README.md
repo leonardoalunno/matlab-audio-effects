@@ -12,9 +12,7 @@ The primary script (`audio_processor.m`) handles:
 3. **Frequency Domain Analysis:** Leveraging the Fast Fourier Transform (FFT) to compute and display the single-sided amplitude spectrum, revealing the frequency components of the audio.
 4. **Digital Filtering:** Applying high-quality digital filters to isolate or remove specific frequency bands.
 
-<div align="center">
-  <img src="docs/figures/signal_analysis.png" alt="Audio Signal Analysis Plot" width="350"/>
-</div>
+![Audio Signal Analysis Plot](docs/figures/signal_analysis.png)
 
 ## ⚙️ Engineering Highlights
 

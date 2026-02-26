@@ -94,7 +94,7 @@ P1_filt(2:end-1) = 2 * P1_filt(2:end-1);
 
 % Plot original spectrum
 subplot(2, 2, 3);
-plot(f, 20*log10(P1_orig), 'k');
+plot(f, 20*log10(P1_orig), 'b');
 title('Original Spectrum (Frequency Domain)');
 xlabel('Frequency (Hz)');
 ylabel('Magnitude (dB)');
