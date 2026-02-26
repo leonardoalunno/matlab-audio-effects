@@ -12,9 +12,11 @@ The primary script (`audio_processor.m`) handles:
 3. **Frequency Domain Analysis:** Leveraging the Fast Fourier Transform (FFT) to compute and display the single-sided amplitude spectrum, revealing the frequency components of the audio.
 4. **Digital Filtering:** Applying high-quality digital filters to isolate or remove specific frequency bands.
 
-![Audio Signal Analysis Plot](docs/figures/signal_analysis.png)
+<div align="center">
+  <img src="docs/figures/signal_analysis.png" alt="Audio Signal Analysis Plot" width="350"/>
+</div>
 
-## 🚀 Engineering Highlights
+## ⚙️ Engineering Highlights
 
 *   **Zero-Phase Distortion Filtering:** The filtering module (`apply_digital_filter.m`) utilizes a **Butterworth filter** implemented via MATLAB's `filtfilt` function. By filtering the data in both the forward and reverse directions, it achieves zero-phase distortion, ensuring the filtered signal is not artificially delayed or shifted in time compared to the original.
 *   **Modular Architecture:** The project separates source code (`src/`), data (`data/`), and output (`results/`), adopting best practices for code organization and scalability.
@@ -34,7 +36,7 @@ matlab-audio-effects/
 └── README.md           # Project documentation
 ```
 
-## ⚙️ How to Run
+## 🚀 How to Run
 
 1. Clone the repository to your local machine:
    ```bash
@@ -44,8 +46,8 @@ matlab-audio-effects/
 3. Execute the `audio_processor.m` script.
 4. The script will automatically generate a noisy 1kHz test signal, apply a Low-Pass Butterworth filter, save the cleaned audio to the `results/` folder, and display a comprehensive 4-panel comparison figure.
 
----
+## 👨‍💻 Author
 
-> **_Leonardo Alunno_**  
-> _Aspiring Computer Engineer_  
-> 🔗 [LinkedIn](https://www.linkedin.com/in/leonardo-alunno-3095922b7)
+**Leonardo Alunno**  
+*Aspiring Computer Engineer*  
+🔗 [LinkedIn](https://www.linkedin.com/in/leonardo-alunno-3095922b7)
