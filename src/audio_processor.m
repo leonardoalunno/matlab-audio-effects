@@ -3,8 +3,9 @@
 clear; clc; close all;
 
 %% 1. Configuration
-% We will look for the violin audio file in the data/ folder.
-filename = fullfile('..', 'data', 'violin.wav');
+% We will look for an audio file in the data/ folder.
+% Tip: Change this to 'violin.wav' to test with an actual instrument recording!
+filename = fullfile('..', 'data', 'test_audio.wav');
 
 % Generate a temporary test tone if the file does not exist
 if ~isfile(filename)
