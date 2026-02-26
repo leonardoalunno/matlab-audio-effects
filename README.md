@@ -1,8 +1,8 @@
-# MATLAB Audio Effects and Signal Processing
+# 🎛️ MATLAB Audio Effects and Signal Processing
 
 A professional, MATLAB-based audio processing tool designed for analyzing signals in the time and frequency domains, featuring customizable digital filters and effects.
 
-## Overview
+## 📖 Overview
 
 This project demonstrates core concepts of Digital Signal Processing (DSP) and Software Engineering applied in a MATLAB environment. It is structured to provide a clean, modular, and maintainable codebase for audio analysis and enhancement.
 
@@ -12,13 +12,13 @@ The primary script (`audio_processor.m`) handles:
 3. **Frequency Domain Analysis:** Leveraging the Fast Fourier Transform (FFT) to compute and display the single-sided amplitude spectrum, revealing the frequency components of the audio.
 4. **Digital Filtering:** Applying high-quality digital filters to isolate or remove specific frequency bands.
 
-## Engineering Highlights
+## 🚀 Engineering Highlights
 
 *   **Zero-Phase Distortion Filtering:** The filtering module (`apply_digital_filter.m`) utilizes a **Butterworth filter** implemented via MATLAB's `filtfilt` function. By filtering the data in both the forward and reverse directions, it achieves zero-phase distortion, ensuring the filtered signal is not artificially delayed or shifted in time compared to the original.
 *   **Modular Architecture:** The project separates source code (`src/`), data (`data/`), and output (`results/`), adopting best practices for code organization and scalability.
 *   **Robust Data Handling:** Incorporates stereophonic to monophonic conversion strategies and dynamic signal parsing.
 
-## Directory Structure
+## 📁 Directory Structure
 
 ```text
 matlab-audio-effects/
@@ -32,7 +32,7 @@ matlab-audio-effects/
 └── README.md           # Project documentation
 ```
 
-## How to Run
+## ⚙️ How to Run
 
 1. Clone the repository to your local machine:
    ```bash
