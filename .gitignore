@@ -1,0 +1,18 @@
+# MATLAB auto-save and temporary files
+*.asv
+*.m~
+*.mat
+
+# Simulink binaries and generated files
+*.slxc
+slprj/
+sfprj/
+
+# Compiled functions / binaries
+*.mex*
+*.dll
+*.so
+*.dylib
+
+# App Designer and UI figures (optional, uncomment if you don't want to track them)
+# *.fig
