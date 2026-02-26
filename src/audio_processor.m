@@ -94,7 +94,7 @@ P1_filt(2:end-1) = 2 * P1_filt(2:end-1);
 
 % Plot original spectrum
 subplot(2, 2, 3);
-plot(f, 20*log10(P1_orig), 'b');
+plot(f, 20*log10(P1_orig), 'r');
 title('Original Spectrum (Frequency Domain)');
 xlabel('Frequency (Hz)');
 ylabel('Magnitude (dB)');
@@ -103,7 +103,7 @@ grid on;
 
 % Plot filtered spectrum
 subplot(2, 2, 4);
-plot(f, 20*log10(P1_filt), 'r');
+plot(f, 20*log10(P1_filt), 'g');
 title(['Filtered Spectrum (Cutoff ', num2str(cutoff_freq), 'Hz)']);
 xlabel('Frequency (Hz)');
 ylabel('Magnitude (dB)');
