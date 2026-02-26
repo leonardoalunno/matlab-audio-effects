@@ -12,6 +12,8 @@ The primary script (`audio_processor.m`) handles:
 3. **Frequency Domain Analysis:** Leveraging the Fast Fourier Transform (FFT) to compute and display the single-sided amplitude spectrum, revealing the frequency components of the audio.
 4. **Digital Filtering:** Applying high-quality digital filters to isolate or remove specific frequency bands.
 
+![Audio Signal Analysis Plot](docs/figures/signal_analysis.png)
+
 ## 🚀 Engineering Highlights
 
 *   **Zero-Phase Distortion Filtering:** The filtering module (`apply_digital_filter.m`) utilizes a **Butterworth filter** implemented via MATLAB's `filtfilt` function. By filtering the data in both the forward and reverse directions, it achieves zero-phase distortion, ensuring the filtered signal is not artificially delayed or shifted in time compared to the original.
