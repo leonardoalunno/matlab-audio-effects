@@ -1,5 +1,9 @@
 # 🎛️ MATLAB Audio Effects and Signal Processing
 
+![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white)
+![Signal Processing](https://img.shields.io/badge/Domain-Digital_Signal_Processing-blue?style=for-the-badge)
+![Math](https://img.shields.io/badge/Algorithms-FFT_%26_Butterworth-red?style=for-the-badge)
+
 A professional, MATLAB-based audio processing tool designed for analyzing signals in the time and frequency domains, featuring customizable digital filters and effects.
 
 ## 📖 Overview
